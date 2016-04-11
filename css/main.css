@@ -1,0 +1,88 @@
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.jumbotron {
+    background-image: url("/css/title_bg.jpg");
+    color: #3f3f3f;
+    margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.quote {
+    text-align: right;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.link a {
+    color: #00bfff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.link span {
+    margin-right: 2px;
+    font-size: 14px;
+}
+
+.link {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.bbg {
+    background-color: rgb(40,0,216);
+}
+
+.rtrs {
+    background-color: rgb(255,129,0);
+}
+
+.ft {
+    background-color: rgb(255,241,224);
+    color: #3f3f3f;
+}
+
+.wsj {
+    background-color: #e6e6e6;
+    color: #3f3f3f;
+    font-family: 'Times New Roman', serif !important;
+}
+
+.sublabel {
+    display: none;
+}
+
+.subtext {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.subspan {
+    margin-right: 2px;
+}
+
+.update {
+    font-size: 12px;
+    font-style: italic;
+    color: #aaa;
+}
+
+.source {
+    margin-right: 5px;
+}
+
+.region {
+    margin-top: 25px;
+}
