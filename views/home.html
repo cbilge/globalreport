@@ -5,13 +5,13 @@
     </div>
 </div>
 <div class="container">
-    <div class="link" ng-repeat="item in rep.links"><a ng-href="{{item.link}}" target="_blank"><span class="glyphicon glyphicon-link"></span>{{item.title}}</a></div>
+    <div class="link" ng-repeat="item in rep.links"><a ng-href="{{item.link}}" target="_blank"><i class="fa fa-file-pdf-o"></i> {{item.title}}</a></div>
 </div>
 <div class="container">
     <div ng-repeat="reg in rep.regions">
         <h2 class="region">{{reg.region | uppercase}}</h2>
         <div ng-repeat="title in reg.titles">
-            <p class="news {{subCheck(title.src)}}"><span class="label label-default source {{labelClass(title.src)}}">{{title.src}}</span><span class="{{subSpan(title.src)}}"></span>{{title.news}}</p>
+            <p class="news {{subCheck(title.src)}}"><span class="label label-default source {{labelClass(title.src)}}">{{title.src}}</span><span class="{{subSpan(title.src)}}"></span> {{title.news}}</p>
         </div>
     </div>
 <div class="update">Last update: {{rep.update}}</div>

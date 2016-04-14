@@ -45,7 +45,8 @@ app.controller('mainController', ['$scope', 'Report', function ($scope, Report) 
 
     $scope.subSpan = function (src) {
         if (src == "subheader") {
-            return "glyphicon glyphicon-chevron-right subspan";
+            //return "glyphicon glyphicon-chevron-right subspan";
+            return "fa fa-angle-right";
         }
         else {
             return "";
